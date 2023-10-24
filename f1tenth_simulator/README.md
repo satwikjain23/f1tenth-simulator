@@ -12,7 +12,7 @@ https://f1tenth.readthedocs.io/en/latest/going_forward/simulator/index.html
 
 ### Dependencies
 
-If you have ```ros-melodic-desktop``` installed, the additional dependencies you must install are:
+If you have ```ros-noetic-desktop``` installed, the additional dependencies you must install are:
 
 - tf2_geometry_msgs
 - ackermann_msgs
@@ -21,7 +21,7 @@ If you have ```ros-melodic-desktop``` installed, the additional dependencies you
 
 You can install them by running:
 
-    sudo apt-get install ros-melodic-tf2-geometry-msgs ros-melodic-ackermann-msgs ros-melodic-joy ros-melodic-map-server
+    sudo apt-get install ros-noetic-tf2-geometry-msgs ros-noetic-ackermann-msgs ros-noetic-joy ros-noetic-map-server
 
 The full list of dependencies can be found in the ```package.xml``` file.
 
@@ -30,7 +30,7 @@ The full list of dependencies can be found in the ```package.xml``` file.
 To install the simulator package, clone the repo with the simulator and starter code into your catkin workspace:
 
     cd ~/catkin_ws/src
-    git clone https://github.com/f1tenth/f1tenth_simulator.git
+    git clone <required link>
     
 Then run ```catkin_make``` to build it:
 
